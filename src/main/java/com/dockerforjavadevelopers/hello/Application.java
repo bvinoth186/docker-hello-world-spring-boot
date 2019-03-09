@@ -24,11 +24,11 @@ public class Application {
 
  			System.out.println("JDBC Class found");
 
-// 			String hostname = "jdbc:postgresql://5a3ec84c-0eb5-49ba-899d-91a9339f02a9.d7deeff0d58745aba57fa5c84685d5b4.databases.appdomain.cloud:32203/ibmclouddb";
+ 			String hostname = "jdbc:postgresql://5a3ec84c-0eb5-49ba-899d-91a9339f02a9.d7deeff0d58745aba57fa5c84685d5b4.databases.appdomain.cloud:32203/ibmclouddb";
 
 // 			String hostname = "url jdbc:postgresql://5a3ec84c-0eb5-49ba-899d-91a9339f02a9.d7deeff0d58745aba57fa5c84685d5b4.databases.appdomain.cloud:32203/ibmclouddb&sslmode=disable";
 
- 			String hostname = "url jdbc:postgresql://5a3ec84c-0eb5-49ba-899d-91a9339f02a9.d7deeff0d58745aba57fa5c84685d5b4.databases.appdomain.cloud:32203/ibmclouddb&sslmode=verify-ca";
+// 			String hostname = "url jdbc:postgresql://5a3ec84c-0eb5-49ba-899d-91a9339f02a9.d7deeff0d58745aba57fa5c84685d5b4.databases.appdomain.cloud:32203/ibmclouddb&sslmode=verify-ca";
  			
  			System.out.println(hostname);
  			Connection con = DriverManager.getConnection(hostname, "ibm_cloud_9b4b8a88_9f9b_4687_a36d_9099038efbae",
